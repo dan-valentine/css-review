@@ -1,4 +1,56 @@
 nav {
     background: #222222;
     color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.ham-img{
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
+.mobile-slide{
+    position: absolute;
+    left: -200px;
+    background: #333333;
+    width: 200px;
+    transition: .6s;
+    overflow: hidden;
+}
+.show{
+    left: 0px;
+    transition: .6s;
+}
+.menu{
+    position: relative
+}
+.dropDown{
+    height: 20px;
+    overflow: hidden;
+}
+.dropDown:hover{
+    height: 150px;
+    transition: .8s;
+}
+.dropDown ul{
+    height: 0px;
+    overflow: hidden;
+    transition: .8s;
+    background: #444444;
+}
+.dropDown:hover ul{
+    height: 100px;
+}
+.dropDown:hover ul li{
+    border-bottom: #222222
+}
+
+@media (min-width: 768px){
+    
+}
+@media (min-width: 992px){
+
+}
+@media (min-width: 1200px){
+
 }
