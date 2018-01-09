@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import './Content.css';
 
-export default class Body extends Component {
+export default class Content extends Component {
     render() {
         return (
             <div className='container'></div>
